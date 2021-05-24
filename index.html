@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        h1{
+            color: black;
+            text-align: center;
+        }
+        body{
+            background-color:white;
+            }
+        .form{border-style: solid;
+            border-radius:0%;
+            background-color: #171717 ;
+            box-shadow: whitesmoke ;
+            text-align: center;
+            padding: 10px;
+            padding-left: 10px;
+            margin: 0px;
+            }
+        input:hover{
+
+            background-color:gray;
+            
+            padding: 0px;
+            margin: 0px;
+        }
+        input{
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        .form_element{
+            padding: 10px;
+        }
+        label{
+            color: white;
+
+        }
+        .ele{
+            align-items: center;
+            align-self: center;
+            align-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="el" >
+        <h1>Welcome to Website</h1>
+        <form name="i" class="form"> 
+            <div class="form_element">
+            <label for="input1">UserName</label><br><br>
+            <input type="text" name="input1">
+            </div>
+            <div class="form_element">
+            <label for="input2">PassWord</label><br><br>
+            <input type="password" name="input2">
+            </div>
+            <div>
+            <input type="button" name="btn" onclick="fun()" value="Done">
+            </div>
+        </form>
+ 
+     </div>
+</body>
+
+</html>
